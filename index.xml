@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chaos Cosmos</title>
+    <link>https://chaoscosmos.github.io/</link>
+    <description>Recent content on Chaos Cosmos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jul 2018 18:14:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://chaoscosmos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Please see my example</title>
+      <link>https://chaoscosmos.github.io/post/hello/</link>
+      <pubDate>Wed, 04 Jul 2018 18:14:56 +0800</pubDate>
+      
+      <guid>https://chaoscosmos.github.io/post/hello/</guid>
+      <description>Hello, this is my first post.</description>
+    </item>
+    
+  </channel>
+</rss>
