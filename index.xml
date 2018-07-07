@@ -6,19 +6,10 @@
     <description>Recent content on Chaos Cosmos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 19:34:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 18:14:56 +0800</lastBuildDate>
     
 	<atom:link href="https://chaoscosmos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Me</title>
-      <link>https://chaoscosmos.github.io/about/aboutme/</link>
-      <pubDate>Wed, 04 Jul 2018 19:34:09 +0800</pubDate>
-      
-      <guid>https://chaoscosmos.github.io/about/aboutme/</guid>
-      <description>My name is Chao and I am a software developer willing to share and learn. Good to see you here.</description>
-    </item>
     
     <item>
       <title>Please see my example</title>
