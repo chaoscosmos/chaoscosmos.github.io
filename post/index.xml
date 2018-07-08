@@ -24,24 +24,5 @@ Website Location chaoscosmos.github.io
 Way of Working Install Hugo Please refer to Hugo Quick Start for details.</description>
     </item>
     
-    <item>
-      <title>Post1</title>
-      <link>https://chaoscosmos.github.io/post/post1/</link>
-      <pubDate>Sat, 07 Jul 2018 19:45:06 +0800</pubDate>
-      
-      <guid>https://chaoscosmos.github.io/post/post1/</guid>
-      <description>chapter 1 overview
-section 1 hugo the great</description>
-    </item>
-    
-    <item>
-      <title>Please see my example</title>
-      <link>https://chaoscosmos.github.io/post/hello/</link>
-      <pubDate>Wed, 04 Jul 2018 18:14:56 +0800</pubDate>
-      
-      <guid>https://chaoscosmos.github.io/post/hello/</guid>
-      <description>Hello, this is my first post.</description>
-    </item>
-    
   </channel>
 </rss>
