@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Chaos Cosmos  | Generate Hugo website and host it on GitHub</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.37.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Generate Hugo website and host it on GitHub" />
+<meta property="og:description" content="Introduction GitHub pages is convient and easy enough for hosting your blogging website by Jekyll. But if you like to generate static website using alternatives - Hugo for example, here is a brief.
+This repository host source code for generating my static HTML pages by Hugo.
+Website Repository Stored in static website repository.
+Website Location chaoscosmos.github.io
+Way of Working Install Hugo Please refer to Hugo Quick Start for details." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chaoscosmos.github.io/post/generate_hugo_web_on_github/" />
+
+
+
+<meta property="article:published_time" content="2018-07-08T15:39:04&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-07-08T15:39:04&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Generate Hugo website and host it on GitHub">
+<meta itemprop="description" content="Introduction GitHub pages is convient and easy enough for hosting your blogging website by Jekyll. But if you like to generate static website using alternatives - Hugo for example, here is a brief.
+This repository host source code for generating my static HTML pages by Hugo.
+Website Repository Stored in static website repository.
+Website Location chaoscosmos.github.io
+Way of Working Install Hugo Please refer to Hugo Quick Start for details.">
+
+
+<meta itemprop="datePublished" content="2018-07-08T15:39:04&#43;08:00" />
+<meta itemprop="dateModified" content="2018-07-08T15:39:04&#43;08:00" />
+<meta itemprop="wordCount" content="276">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generate Hugo website and host it on GitHub"/>
+<meta name="twitter:description" content="Introduction GitHub pages is convient and easy enough for hosting your blogging website by Jekyll. But if you like to generate static website using alternatives - Hugo for example, here is a brief.
+This repository host source code for generating my static HTML pages by Hugo.
+Website Repository Stored in static website repository.
+Website Location chaoscosmos.github.io
+Way of Working Install Hugo Please refer to Hugo Quick Start for details."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://chaoscosmos.github.io" class="f3 fw2 hover-white no-underline white-90 dib">
+      Chaos Cosmos
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+  <a href="https://twitter.com/GoHugoIO" class="link-transition twitter link dib z-999 pt3 pt0-l mr2" title="Twitter link">
+    <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+  </a>
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Generate Hugo website and host it on GitHub</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-07-08T15:39:04&#43;08:00">July 8, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="introduction">Introduction</h1>
+
+<p><a href="https://pages.github.com/&gt;" title="GitHub Pages">GitHub pages</a> is convient and easy enough for hosting your blogging website by <a href="https://help.github.com/articles/using-jekyll-with-pages&gt;" title="Jekyll Help">Jekyll</a>. But if you like to generate static website using alternatives - <a href="http://gohugo.io/&gt;" title="Hugo official site">Hugo</a> for example, here is a brief.</p>
+
+<p>This repository host source code for generating my static HTML pages by <a href="http://gohugo.io/&gt;" title="Hugo official site">Hugo</a>.</p>
+
+<h3 id="website-repository">Website Repository</h3>
+
+<p>Stored in static <a href="https://github.com/chaoscosmos/chaoscosmos.github.io&gt;" title="website repo">website repository</a>.</p>
+
+<h3 id="website-location">Website Location</h3>
+
+<p><a href="https://chaoscosmos.github.io&gt;" title="Website URL">chaoscosmos.github.io</a></p>
+
+<h1 id="way-of-working">Way of Working</h1>
+
+<h4 id="install-hugo">Install Hugo</h4>
+
+<p>Please refer to <a href="https://gohugo.io/getting-started/quick-start/&gt;" title="Hugo Quick Start">Hugo Quick Start</a> for details.</p>
+
+<h4 id="clone-source-repo">Clone Source Repo</h4>
+
+<p>For example:</p>
+
+<pre><code>$ git clone git@github.com:chaoscosmos/hugo-chaoscomos.git
+</code></pre>
+
+<h4 id="clone-website-repo">CLone Website Repo</h4>
+
+<p>This is for storing deployed generated public static website.</p>
+
+<p>For example:</p>
+
+<pre><code>$ git clone git@github.com:chaoscosmos/chaoscosmos.github.io.git
+</code></pre>
+
+<h4 id="using-theme">Using Theme</h4>
+
+<p>Now with all staff prepared, you are ready to create and edit your posts. But one more thing you may prefer to do - a wonderful theme - to make your website beatiful and your work easer.</p>
+
+<p>For example, I&rsquo;m taking <a href="https://github.com/budparr/gohugo-theme-ananke&gt;" title="Ananke's theme">ananke&rsquo;s theme</a> (please give credit to the designer) as my base template.</p>
+
+<p>In your working directory, e.g. <code>./hugo-chaoscosmos/</code></p>
+
+<pre><code>$ mkdir themes/
+$ cd themes/
+$ git clone git@github.com:budparr/gohugo-theme-ananke.git
+$ cd ../
+</code></pre>
+
+<p>Modify <code>config.toml</code> for building website using the theme you desired.</p>
+
+<pre><code>$ vim config.toml
+theme = &quot;gohugo-theme-ananke&quot;
+</code></pre>
+
+<h4 id="edit-posts">Edit Posts</h4>
+
+<p>Till now you may have a try to create your first post.</p>
+
+<pre><code>$ hugo new post/hello.md
+</code></pre>
+
+<p>Hugo will generate an initial markdown file. Take my example, its path will be <code>content/post/hello.md</code>. You can now edit your first post.</p>
+
+<pre><code>$ vim content/post/hello.md
+</code></pre>
+
+<p>To make your post ready to publish, update the attribute <code>draft</code> to <code>false</code>, e.g. <code>draft: false</code>.</p>
+
+<h4 id="deploy-website">Deploy Website</h4>
+
+<h5 id="test-your-website-locally">Test your website locally:</h5>
+
+<p><code>$ hugo server</code></p>
+
+<p>Now enter <a href="http://localhost:1313/"><code>localhost:1313</code></a> in the address bar of your browser.</p>
+
+<h5 id="deploy-your-website-to-website-repository-website">Deploy your website to <a href="https://github.com/chaoscosmos/chaoscosmos.github.io&gt;" title="website repo">website repository</a></h5>
+
+<p>Script <code>deploy.sh</code> explains how it works.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "chaoscosmos" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">What's in this Post</p>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li>
+<ul>
+<li><a href="#website-repository">Website Repository</a></li>
+<li><a href="#website-location">Website Location</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#way-of-working">Way of Working</a>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#install-hugo">Install Hugo</a></li>
+<li><a href="#clone-source-repo">Clone Source Repo</a></li>
+<li><a href="#clone-website-repo">CLone Website Repo</a></li>
+<li><a href="#using-theme">Using Theme</a></li>
+<li><a href="#edit-posts">Edit Posts</a></li>
+<li><a href="#deploy-website">Deploy Website</a>
+<ul>
+<li><a href="#test-your-website-locally">Test your website locally:</a></li>
+<li><a href="#deploy-your-website-to-website-repository-website">Deploy your website to <a href="https://github.com/chaoscosmos/chaoscosmos.github.io&gt;" title="website repo">website repository</a></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chaoscosmos.github.io" >
+    &copy; 2018 Chaos Cosmos
+  </a>
+  
+
+
+
+  <a href="https://twitter.com/GoHugoIO" class="link-transition twitter link dib z-999 pt3 pt0-l mr2" title="Twitter link">
+    <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+  </a>
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

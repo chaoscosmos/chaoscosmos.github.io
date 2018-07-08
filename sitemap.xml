@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chaoscosmos.github.io/post/generate_hugo_web_on_github/</loc>
+    <lastmod>2018-07-08T15:39:04+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://chaoscosmos.github.io/post/post1/</loc>
     <lastmod>2018-07-07T19:45:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -24,14 +31,14 @@
   
   <url>
     <loc>https://chaoscosmos.github.io/</loc>
-    <lastmod>2018-07-07T19:45:06+08:00</lastmod>
+    <lastmod>2018-07-08T15:39:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chaoscosmos.github.io/post/</loc>
-    <lastmod>2018-07-07T19:45:06+08:00</lastmod>
+    <lastmod>2018-07-08T15:39:04+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
